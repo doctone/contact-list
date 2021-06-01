@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path
 from contactlistapp import views
 urlpatterns = [
-    path('contactlistapp/',views.index)
+    path('contactlistapp/',views.index),
     path('admin/', admin.site.urls),
 ]
